@@ -1,0 +1,15 @@
+name: testing first script
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello vinodh
+        run: echo "hello vinodh, how are you!"
+
+      - name: Where
+        run: echo "Where are you living nowadays? Thank you!"
+
+    
+  
+
